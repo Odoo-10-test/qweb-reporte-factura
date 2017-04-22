@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- QWeb Reports -->
+    <report 
+            id="mfh_report_invoices"
+            model="account.invoice"
+            string="Factura Libre"
+            report_type="qweb-pdf"
+            name="ejemplo_reporte.mfh_report_invoice"
+            file="ejemplo_reporte.mfh_report_invoice"
+        />
+    </data>
+</odoo>
